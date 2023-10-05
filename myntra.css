@@ -1,0 +1,93 @@
+header{
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    position: sticky;
+    top: 0;      
+    background-color: white;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+}      
+.parent{
+    margin-top: 18px;      
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: black;
+  }   
+a:visited{
+    color: black;
+}
+a:hover{
+    color:rgb(255, 0, 208);
+    text-decoration:underline ;
+}
+.class1{
+    margin-left : 40px; 
+    margin-top : 40px;      
+    vertical-align : middle;
+    font : status-bar;
+    font-size : 13px;
+    color : rgb(0, 0, 0);
+}
+#idsup{
+    color: rgb(255, 0, 208);
+}
+.class2{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+    width: 75%;
+}
+.search-bar{
+    background-color: rgb(240, 240, 240); 
+    border: 0.5px solid rgb(242, 242, 242);
+    border-radius: 4px;
+    padding: 9px 45px;
+    width: 250px;
+    margin-left: 12px;
+    margin-right: 2px;
+    size: 12px;
+}
+.row {
+    display: flex;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+.img4{
+    width: 100%;
+}
+.row2{
+    display: flex;
+}
+.column2{
+    padding: 0px;
+    flex: 20%;
+    border: 2px solid rgb(255, 255, 255)
+}
+table,th,tr,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+td{
+    text-align: center;
+}
+.tables{
+    display: flex;
+    flex-direction: row;
+}
+.TABLE1{
+    margin: 4px;
+    background-color: chartreuse;
+    
+}
+.TABLE2{
+    background-color: aqua;
+    margin: 4px;
+    
+}
